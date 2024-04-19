@@ -23,7 +23,7 @@ const Container = styled.div`
     }
 `;
 
-function MainPage(props){
+function ListPage(props){
     const navigate = useNavigate();
 
     return (
@@ -46,4 +46,4 @@ function MainPage(props){
     );
 }
 
-export default MainPage;
+export default ListPage;

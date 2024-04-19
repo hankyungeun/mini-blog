@@ -6,10 +6,11 @@ import {
 } from "react-router-dom";
 import styled from 'styled-components';
 //Pages
-import MainPage from './component/page/MainPage';
+import MainPage from './component/page/ListPage';
 import PostWritePage from './component/page/PostWritePage';
 import PostViewPage from './component/page/PostViewPage';
 import Header from './component/common/Header';
+import ListPage from './component/page/ListPage';
 
 
 function App(props){
@@ -17,7 +18,8 @@ function App(props){
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route index element={<MainPage />} />
+        {/* <Route index element={<MainPage />} /> */}
+        <Route path="/list" element={<ListPage />} />
         <Route path="post-write" element={<PostWritePage />} />
         <Route path="post/:postId" element={<PostViewPage />} />
       </Routes>

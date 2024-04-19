@@ -7,11 +7,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #fff3f6;
-
 }
 
 .mainTitleStyle{
-  font-weight: bold; color:#f2aabc; font-size:40px;
+  font-weight: bold; color:#f2aabc; font-size:42px;
   text-align: center;
   background-image: url('https://blog.kakaocdn.net/dn/bGWjD9/btsGl2hMKqR/lvKFuw383f7lBhrrUVegY0/img.gif'); background-repeat: repeat;
   margin: auto;
@@ -20,3 +19,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.nav-area{ background:#ffd9e5; height:50px; text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.menu{display: table-cell; width: 250px; height: 50px;
+		vertical-align:middle; font-size:26px; font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+  }
+.menu:hover{background:#ffccdc; cursor:pointer;}
