@@ -9,17 +9,13 @@ import styled from 'styled-components';
 import MainPage from './component/page/MainPage';
 import PostWritePage from './component/page/PostWritePage';
 import PostViewPage from './component/page/PostViewPage';
+import Header from './component/common/Header';
 
-const MainTitleText = styled.p`
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-`
 
 function App(props){
   return(
     <BrowserRouter>
-      <MainTitleText>소플의 미니 블로그</MainTitleText>
+      <Header />
       <Routes>
         <Route index element={<MainPage />} />
         <Route path="post-write" element={<PostWritePage />} />

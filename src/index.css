@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: "Single Day", cursive
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff3f6;
+
+}
+
+.mainTitleStyle{
+  font-weight: bold; color:#f2aabc; font-size:40px;
+  text-align: center;
+  background-image: url('https://blog.kakaocdn.net/dn/bGWjD9/btsGl2hMKqR/lvKFuw383f7lBhrrUVegY0/img.gif'); background-repeat: repeat;
+  margin: auto;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
