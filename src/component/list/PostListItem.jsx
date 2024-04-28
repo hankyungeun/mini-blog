@@ -3,15 +3,16 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
     width: calc(100% - 32px);
+    height: 18px;
     padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    border: 1px solid grey;
-    border-radius: 8px;
+    //border: 1px solid grey;
+    //border-radius: 8px;
     cursor: pointer;
-    background: white;
+    color: #6b6b6b;
     :hover {
         background: lightgrey;
     }

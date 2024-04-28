@@ -4,9 +4,11 @@ import styled from "styled-components";
 const StyledButton = styled.button`
     padding: 8px 16px;
     font-size: 16px;
-    border: 1px dashed;
+    border: 2px dashed #ffc9d7;
     border-radius: 8px;
     cursor: pointer;
+    color: #6b6b6b;
+    background-color: #fff7e4;
 `;
 
 function Button(props) {
