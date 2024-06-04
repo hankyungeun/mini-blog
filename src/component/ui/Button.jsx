@@ -8,7 +8,7 @@ const StyledButton = styled.button`
     border-radius: 8px;
     cursor: pointer;
     color: #6b6b6b;
-    background-color: #fff7e4;
+    background-color: #fff1f6;
 `;
 
 function Button(props) {
