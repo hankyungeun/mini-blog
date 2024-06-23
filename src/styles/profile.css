@@ -1,2 +1,45 @@
-.profile-container{display: flex; align-items: center; width: 90%;}
-.profile-container img{height: 250px;}
+
+.profile-container {
+  position: relative; /* 상대 위치 설정 */
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+.profile-container:before,
+.profile-container:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 30px; /* 띠의 높이 설정 */
+  /*background-image: url('https://64.media.tumblr.com/bd8114b46535a16844a4671f275532f0/4c6006bc70b8d333-35/s400x600/ccd14f2919c31559b8c5a2ced862dc8e7c61d65b.gifv');*/
+  background-repeat: repeat-x; /* 가로로 반복 */
+  background-position: top; /* 위쪽 정렬 */
+  z-index: 1; /* 다른 콘텐츠 위로 배치 */
+}
+
+.profile-container:before {
+  top: 0;
+}
+
+.profile-container:after {
+  bottom: 0;
+}
+
+
+.profile-container .img{height: 200px; border-radius: 100px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);}
+.profile-container .profile-text{margin-left: 50px; font-size: 20px; color: #777; line-height: 30px;}
+
+/*.profile-container {*/
+/*  display: flex;*/
+/*  border-width: 3px;*/
+/*  border-style: double;*/
+/*  border-color: #777;*/
+/*  border-image-source: url('https://67.media.tumblr.com/c0194af2a8fd7ad1c9f5f3b5e2b68840/tumblr_inline_o98mskFnTn1u2r0ws_540.png');*/
+/*  border-image-slice: 4;*/
+/*  border-image-width: 3;*/
+/*  border-image-outset: 0;*/
+/*  border-image-repeat: round;*/
+/*  padding: 20px;*/
+/*  background-color: #fff;*/
+/*}*/

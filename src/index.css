@@ -4,6 +4,12 @@
 
 .outline{
   display: flex; align-items: center; height: 90vh; flex-direction: column; margin-top: 50px;
+  /*justify-content: center;*/
+}
+
+.container{
+  max-width: 960px;
+  width: 100%;
 }
 
 body {
