@@ -1,6 +1,6 @@
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 export default function Header(){
-    return(
+    return( 
         <div>
             <p className="mainTitleStyle">
             ミ⛧ HAN KYUNG EUN &nbsp;  ͙͡ &nbsp;͘★
