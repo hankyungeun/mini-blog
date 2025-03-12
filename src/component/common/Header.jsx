@@ -1,5 +1,7 @@
-import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Link, useLocation  } from 'react-router-dom';
 export default function Header(){
+    const location = useLocation();
+
     return( 
         <div>
             <p className="mainTitleStyle">
@@ -7,11 +9,11 @@ export default function Header(){
             </p>
             <div className="nav-area">
                 <div>
-                    <Link to="/" className="menu">My</Link>
+                    <Link to="/" className={location.pathname === "/" ? "menu-active" : "menu"}>My</Link>
                 </div>
                 <div className="menu">Project</div>
                 <div>
-                    <Link to="/list" className="menu">게시판</Link>
+                    <Link to="/list" className={location.pathname === "/list" ? "menu-active" : "menu"}>게시판</Link>
                 </div>
                 <div className="menu">Contact</div>
             </div>

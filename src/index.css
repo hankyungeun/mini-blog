@@ -34,6 +34,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .menu{display: table-cell; width: 250px; height: 50px;
 		vertical-align:middle; font-size:26px; font-weight:500;
     display: flex;
@@ -43,3 +44,13 @@ body {
     color:white;
   }
 .menu:hover{background:#ffccdc; cursor:pointer;}
+
+.menu-active{display: table-cell; width: 250px; height: 50px;
+  vertical-align:middle; font-size:26px; font-weight:500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color:white;
+  background:#ffccdc;
+}

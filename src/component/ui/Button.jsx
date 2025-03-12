@@ -9,6 +9,9 @@ const StyledButton = styled.button`
     cursor: pointer;
     color: #6b6b6b;
     background-color: #fff1f6;
+    &:hover {
+        background-color: #fff7e4;
+    }
 `;
 
 function Button(props) {
